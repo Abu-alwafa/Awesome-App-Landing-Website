@@ -51,10 +51,10 @@ h2 {
 }
 
 .submenu {
-    position: absolute;
+    position: relative;
     left: 50%;
     transform: translateX(-50%);
-    min-width: 10rem;
+    width: 10rem;
     text-align: center;
     background-color: #96d0d3;
     border-radius: -5px -5px 5px 5px;
@@ -133,6 +133,7 @@ footer p{
 
 @media screen and (max-width: 480px) {
     .btn {
+        width: 100%;
         display: block;
         font-size: 1.1rem;    
     }
@@ -144,7 +145,7 @@ footer p{
         font-size: 1.1rem;
     }
     .submenu {
-        position: relative;
+        width: 100%;
     }
     section {
         padding: 25px 0 15px 0;
