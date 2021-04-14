@@ -53,15 +53,14 @@ h2 {
 .submenu {
     position: relative;
     left: 50%;
-    transform: translateX(-50%);
+    transform: translate(-50%,5px);
     width: 10rem;
     text-align: center;
     background-color: #96d0d3;
-    border-radius: -5px -5px 5px 5px;
+    border-radius: 5px;
     box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
     opacity: 0.8;
     display: none;
-    transition: display 1s ease;
 }
 .show{
     display: block;

@@ -29,12 +29,14 @@
                 <img src="https://i.ytimg.com/vi/io2lKX9ikMM/maxresdefault.jpg" alt="">
                 <p>An Awesome Feature</p>
             </div>
-             <div class="feature">
-                <img src="https://fiverr-res.cloudinary.com/images/q_auto,f_auto/gigs/156604455/original/0bf14150ba3b73ef2ac5fe3243fea27d24d8529b/create-academic-business-power-point-presentation-swiftly.jpg" alt="">
+            <div class="feature">
+                <img src="https://fiverr-res.cloudinary.com/images/q_auto,f_auto/gigs/156604455/original/0bf14150ba3b73ef2ac5fe3243fea27d24d8529b/create-academic-business-power-point-presentation-swiftly.jpg"
+                    alt="">
                 <p>An Awesome Feature</p>
             </div>
             <div class="feature">
-                <img src="https://fiverr-res.cloudinary.com/images/t_main1,q_auto,f_auto,q_auto,f_auto/gigs/113022624/original/3ae8f32876dcec6a36c9560fdb5ee73cc7dc257f/make-any-kind-of-interactive-presentation-work.jpg" alt="">
+                <img src="https://fiverr-res.cloudinary.com/images/t_main1,q_auto,f_auto,q_auto,f_auto/gigs/113022624/original/3ae8f32876dcec6a36c9560fdb5ee73cc7dc257f/make-any-kind-of-interactive-presentation-work.jpg"
+                    alt="">
                 <p>An Awesome Feature</p>
             </div>
         </div>
@@ -55,11 +57,14 @@
             <p>© All right recerved</p>
         </div>
     </footer>
-    <script>
-        document.querySelector('.btn').addEventListener("click", () => {
-            document.querySelector(".submenu").classList.toggle("show");
-            document.querySelector(".submenu").style.transform = "translate(-50%,5px)";
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
 
+    <script>
+        $(function () {
+            $(".btn").click(function () {
+                $(".submenu").slideToggle(400);
+            });
         });
     </script>
 </body>
